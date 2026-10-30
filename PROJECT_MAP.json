@@ -1,0 +1,489 @@
+{
+  "schemaVersion": 1,
+  "snapshot": "2026-10-30T14:47:11.360Z",
+  "project": "order-book.vue3",
+  "root": ".",
+  "method": "static-local-index",
+  "limitations": [
+    "Нет динамических вызовов и сетевых интеграций",
+    "Сверять sha256 и evidence.line с текущими исходниками",
+    "Наличие зависимости не доказывает работоспособность"
+  ],
+  "nodes": [
+    {
+      "id": "project:order-book.vue3",
+      "type": "project",
+      "name": "order-book.vue3"
+    },
+    {
+      "id": "project:order-book.vue3/file:.github/workflows/node.js.yml",
+      "type": "file",
+      "path": ".github/workflows/node.js.yml"
+    },
+    {
+      "id": "project:order-book.vue3/file:README.md",
+      "type": "file",
+      "path": "README.md",
+      "sha256": "3474070608243a7a41ced54b6d24f82ada209f0df672eff54960910ceba3f5e6",
+      "bytes": 4619
+    },
+    {
+      "id": "project:order-book.vue3/file:doc/README.md",
+      "type": "file",
+      "path": "doc/README.md",
+      "sha256": "937b07c520eae48a54a96d701c2464e1a52d81652adc9ebcb19e237c18cd84a1",
+      "bytes": 5837
+    },
+    {
+      "id": "project:order-book.vue3/file:env.d.ts",
+      "type": "file",
+      "path": "env.d.ts",
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "bytes": 38
+    },
+    {
+      "id": "project:order-book.vue3/file:eslint.config.js",
+      "type": "file",
+      "path": "eslint.config.js",
+      "sha256": "10b6d25b29fcb70201812eed8af01921c9ccfff0efa184d971814b2fa67fc5b8",
+      "bytes": 425
+    },
+    {
+      "id": "project:order-book.vue3/file:package.json",
+      "type": "file",
+      "path": "package.json",
+      "sha256": "e8b6a6090cab81a9a15a207762669cf4fc7b1015c669c0b8015bf8ffda9eb8e7",
+      "bytes": 676
+    },
+    {
+      "id": "project:order-book.vue3/file:src/App.vue",
+      "type": "file",
+      "path": "src/App.vue",
+      "sha256": "1e84de401046ee368a5c9711c9b74e987c6b8dc42deac3564acda107618bb6c7",
+      "bytes": 1094
+    },
+    {
+      "id": "project:order-book.vue3/file:src/components/LoadingSpinner.vue",
+      "type": "file",
+      "path": "src/components/LoadingSpinner.vue",
+      "sha256": "dc374f606dad159761925be666434f38ee016c1776ea5738de62e0322876670b",
+      "bytes": 944
+    },
+    {
+      "id": "project:order-book.vue3/file:src/components/OrderBook.vue",
+      "type": "file",
+      "path": "src/components/OrderBook.vue",
+      "sha256": "a50d6443dd3b05ecf90ae800c8628c66e9541aa492070ae1672afdfcf2993066",
+      "bytes": 2856
+    },
+    {
+      "id": "project:order-book.vue3/file:src/components/OrderTable.vue",
+      "type": "file",
+      "path": "src/components/OrderTable.vue",
+      "sha256": "2ad88fc09af5a48029c65f0adbe311eb4ad21fbd5da54963448bd21d57e8ea79",
+      "bytes": 3383
+    },
+    {
+      "id": "project:order-book.vue3/file:src/components/SpreadInfo.vue",
+      "type": "file",
+      "path": "src/components/SpreadInfo.vue",
+      "sha256": "29d39e237c17ce854d5f5acc5c6fbb12413a219e1e202c48dc91cbfa82d0d1de",
+      "bytes": 741
+    },
+    {
+      "id": "project:order-book.vue3/file:src/main.ts",
+      "type": "file",
+      "path": "src/main.ts",
+      "sha256": "fca0acb31063d25e4c6cd22f6c253b16c0292c12c1efb3ddaad1877fd2ed5c2d",
+      "bytes": 431
+    },
+    {
+      "id": "project:order-book.vue3/file:src/stores/api.ts",
+      "type": "file",
+      "path": "src/stores/api.ts",
+      "sha256": "6c8ecbf470f897f71b0d95f4f35c8f71dd3debababc43237d6394c81d4f06381",
+      "bytes": 774
+    },
+    {
+      "id": "project:order-book.vue3/file:src/stores/orderBook.ts",
+      "type": "file",
+      "path": "src/stores/orderBook.ts",
+      "sha256": "6a84e2abe523f07d980f1fd614c32231c7d0a9f3691fff04268b1c7a8e830ab4",
+      "bytes": 2433
+    },
+    {
+      "id": "project:order-book.vue3/file:src/types.ts",
+      "type": "file",
+      "path": "src/types.ts",
+      "sha256": "473f393aaf2abfb5ff827172e63a3fe820e32c263bade500d39ae44ee842fc65",
+      "bytes": 638
+    },
+    {
+      "id": "project:order-book.vue3/file:vite.config.ts",
+      "type": "file",
+      "path": "vite.config.ts",
+      "sha256": "0e8aa25fa6ae831fd0a0d310aa516141526b84596bf3519faca89b7aa3e32069",
+      "bytes": 334
+    },
+    {
+      "id": "package:npm:element-plus",
+      "type": "package",
+      "name": "element-plus",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:pinia",
+      "type": "package",
+      "name": "pinia",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue",
+      "type": "package",
+      "name": "vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@types/node",
+      "type": "package",
+      "name": "@types/node",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@vitejs/plugin-vue",
+      "type": "package",
+      "name": "@vitejs/plugin-vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@vue/eslint-config-typescript",
+      "type": "package",
+      "name": "@vue/eslint-config-typescript",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:@vue/tsconfig",
+      "type": "package",
+      "name": "@vue/tsconfig",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint",
+      "type": "package",
+      "name": "eslint",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:eslint-plugin-vue",
+      "type": "package",
+      "name": "eslint-plugin-vue",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:typescript",
+      "type": "package",
+      "name": "typescript",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vite",
+      "type": "package",
+      "name": "vite",
+      "ecosystem": "npm"
+    },
+    {
+      "id": "package:npm:vue-tsc",
+      "type": "package",
+      "name": "vue-tsc",
+      "ecosystem": "npm"
+    }
+  ],
+  "edges": [
+    {
+      "source": "project:order-book.vue3",
+      "target": "project:order-book.vue3/file:.github/workflows/node.js.yml",
+      "relation": "contains",
+      "evidence": {
+        "path": ".github/workflows/node.js.yml"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:order-book.vue3",
+      "target": "project:order-book.vue3/file:README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:order-book.vue3",
+      "target": "project:order-book.vue3/file:doc/README.md",
+      "relation": "contains",
+      "evidence": {
+        "path": "doc/README.md"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:order-book.vue3",
+      "target": "project:order-book.vue3/file:env.d.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "env.d.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:order-book.vue3",
+      "target": "project:order-book.vue3/file:eslint.config.js",
+      "relation": "contains",
+      "evidence": {
+        "path": "eslint.config.js"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:order-book.vue3",
+      "target": "project:order-book.vue3/file:package.json",
+      "relation": "contains",
+      "evidence": {
+        "path": "package.json"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:order-book.vue3",
+      "target": "project:order-book.vue3/file:src/App.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/App.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:order-book.vue3",
+      "target": "project:order-book.vue3/file:src/components/LoadingSpinner.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/components/LoadingSpinner.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:order-book.vue3",
+      "target": "project:order-book.vue3/file:src/components/OrderBook.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/components/OrderBook.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:order-book.vue3",
+      "target": "project:order-book.vue3/file:src/components/OrderTable.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/components/OrderTable.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:order-book.vue3",
+      "target": "project:order-book.vue3/file:src/components/SpreadInfo.vue",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/components/SpreadInfo.vue"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:order-book.vue3",
+      "target": "project:order-book.vue3/file:src/main.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/main.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:order-book.vue3",
+      "target": "project:order-book.vue3/file:src/stores/api.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/stores/api.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:order-book.vue3",
+      "target": "project:order-book.vue3/file:src/stores/orderBook.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/stores/orderBook.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:order-book.vue3",
+      "target": "project:order-book.vue3/file:src/types.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "src/types.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:order-book.vue3",
+      "target": "project:order-book.vue3/file:vite.config.ts",
+      "relation": "contains",
+      "evidence": {
+        "path": "vite.config.ts"
+      },
+      "method": "filesystem"
+    },
+    {
+      "source": "project:order-book.vue3/file:src/main.ts",
+      "target": "project:order-book.vue3/file:src/App.vue",
+      "relation": "imports_local",
+      "evidence": {
+        "path": "src/main.ts",
+        "line": 7
+      },
+      "method": "lexical-existing-file"
+    },
+    {
+      "source": "project:order-book.vue3/file:package.json",
+      "target": "package:npm:element-plus",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 14
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:order-book.vue3/file:package.json",
+      "target": "package:npm:pinia",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 15
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:order-book.vue3/file:package.json",
+      "target": "package:npm:vue",
+      "relation": "declares_dependency",
+      "kind": "dependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 16
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:order-book.vue3/file:package.json",
+      "target": "package:npm:@types/node",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 19
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:order-book.vue3/file:package.json",
+      "target": "package:npm:@vitejs/plugin-vue",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 20
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:order-book.vue3/file:package.json",
+      "target": "package:npm:@vue/eslint-config-typescript",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 21
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:order-book.vue3/file:package.json",
+      "target": "package:npm:@vue/tsconfig",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 22
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:order-book.vue3/file:package.json",
+      "target": "package:npm:eslint",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 23
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:order-book.vue3/file:package.json",
+      "target": "package:npm:eslint-plugin-vue",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 24
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:order-book.vue3/file:package.json",
+      "target": "package:npm:typescript",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 25
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:order-book.vue3/file:package.json",
+      "target": "package:npm:vite",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 7
+      },
+      "method": "manifest"
+    },
+    {
+      "source": "project:order-book.vue3/file:package.json",
+      "target": "package:npm:vue-tsc",
+      "relation": "declares_dependency",
+      "kind": "devDependencies",
+      "evidence": {
+        "path": "package.json",
+        "line": 27
+      },
+      "method": "manifest"
+    }
+  ]
+}
